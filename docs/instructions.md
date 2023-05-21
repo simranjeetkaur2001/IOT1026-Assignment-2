@@ -1,6 +1,7 @@
 # Assignment 2 – Treasure Chests
 
 ## Value (%)
+
 This assignment is worth 10% of your course grade.
 
 ## Task
@@ -18,6 +19,7 @@ Complete the implementation of the `TreasureChest` class, which represents a tre
 Ensure that your implementation works as expected by testing different actions and state transitions on a `TreasureChest` object.
 
 ## How to Complete This Assessment
+
 1. Implement the default constructor:
    - Assign default values to `_material`, `_lockType`, and `_lootQuality`.
 
@@ -39,6 +41,7 @@ Ensure that your implementation works as expected by testing different actions a
 6. Ensure that the implemented methods are working as expected by testing different actions and state transitions on a `TreasureChest` object. You should write unit tests for the other methods as well.
 
 ## Note on Testing
+
 When creating unit tests for the `TreasureChest` class, you should consider the following test cases to ensure correct functionality:
 
 1. **Valid state transitions**: Test that the chest transitions correctly between states given valid actions (e.g., from open to closed, from closed to locked, from locked to closed, and from closed to open).
@@ -52,12 +55,14 @@ When creating unit tests for the `TreasureChest` class, you should consider the 
 It is not necessary to use the `Main` method for this assignment, as the focus is on the `TreasureChest` class implementation. However, feel free to use the `Main` method for additional testing of your implementation to ensure it is working as expected.
 
 ## How to Submit Your Assessment
+
 Submit a link to the GitHub repo containing your code.
 
 ## State Diagram
+
 ![State Diagram](state-diagram.png)
 
-# Grading Rubric
+## Grading Rubric
 
 ## Results (70%)
 
